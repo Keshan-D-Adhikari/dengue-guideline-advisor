@@ -1,0 +1,18 @@
+# Orchestration
+langgraph>=0.2
+langchain-core>=0.3
+
+# LLM provider clients (Groq + OpenRouter are both OpenAI-compatible APIs)
+groq>=0.9
+openai>=1.40
+
+# RAG: embeddings, vector store, PDF parsing
+chromadb>=0.5
+sentence-transformers>=3.0
+pypdf>=4.0
+tiktoken>=0.7
+
+# App + config
+streamlit>=1.37
+python-dotenv>=1.0
+pydantic>=2.7

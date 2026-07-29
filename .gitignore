@@ -1,0 +1,23 @@
+# Secrets — never commit real keys
+.streamlit/secrets.toml
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector store / generated data (rebuild from data/raw on each machine)
+data/processed/*
+!data/processed/.gitkeep
+chroma_db/
+*.index
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Claude Code local config
+.claude/
