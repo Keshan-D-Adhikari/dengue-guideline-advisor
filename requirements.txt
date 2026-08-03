@@ -16,3 +16,6 @@ tiktoken>=0.7
 streamlit>=1.37
 python-dotenv>=1.0
 pydantic>=2.7
+
+# Tests
+pytest>=8.0
